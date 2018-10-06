@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1511948207023966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4188031446617490}
+  - component: {fileID: 114581586422070476}
+  m_Layer: 0
+  m_Name: ControlManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4188031446617490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511948207023966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114581586422070476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511948207023966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e88be14e43253e84fa2caee7e5f17074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsController: {fileID: 1849108729063988, guid: 94ebb6bb55f89c447905f32649c29a38, type: 3}
+  vrController: {fileID: 1620666441364590, guid: e9a5d777e5a4dbd409f2b199f32e9a57, type: 3}
+  vrMobileController: {fileID: 1675330966218070, guid: 01327c2f5c8793f43b7057411f05b8b9, type: 3}
+  yearDisplay: {fileID: 8183679451154401784, guid: 8c542791abde53446b341c0ecf9ea15b, type: 3}
+  playerStartT: {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 3}
+  yearData:
+  - year: 1858
+  - year: 2018
+  - year: 1899
+  currentYearIndex: 0
+  daySkyboxMat: {fileID: 2100000, guid: ca2ca85211f2c4957b7ff712a5460da8, type: 2}
+  nightSkyboxMat: {fileID: 2100000, guid: f583facf72cae4f998766155a7e1f787, type: 2}
+  dayLightColor: {r: 0.9834748, g: 0.990566, b: 0.654902, a: 1}
+  nightLightColor: {r: 0.20225172, g: 0.21240008, b: 0.9528302, a: 1}
+  daySkyColor: {r: 0.86274517, g: 0.70980394, b: 0.52156866, a: 1}
+  nightSkyColor: {r: 0.39208794, g: 0.66532916, b: 0.9339623, a: 0}
+  dayLightIntensity: 0.2
+  nightLightIntensity: 0.1
+  lightComponent: {fileID: 4927220449060923593, guid: 54fbfdc19a104864fac7ff20b4fc6bd8, type: 3}
+  isDay: 1
+  yAddition: 1
+  teleportLocations:
+  - {fileID: 4718921049359170, guid: 9424cf4c20a30404a83146a051b709ab, type: 3}
+  - {fileID: 4085130876035584, guid: 50b8752d7d6d53f4c87ef6aa7d29f7e7, type: 3}
+  - {fileID: 4047496905598594, guid: 4fb94a0ce265b074f9f3c7c3c5ddebab, type: 3}
+  - {fileID: 4266014521304908, guid: 3df81f6d99b7f2241999aab0639209f1, type: 3}
+  - {fileID: 4565745217267280, guid: eb08bc18c59231e418a9c872ebcaea98, type: 3}
