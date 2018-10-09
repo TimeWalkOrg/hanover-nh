@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: 3653f5cbe7681df4486150fdb8f5b6cd
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 4e96e6bc93c312cebe9a4d1d57494b9b
+  longitude: -72.28906810283661
+  latitude: 43.71033505074184
+  northCorrection: 1.8743118770307206
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -263.8944, y: 18.334034, z: -122.50478}
+      lookAt: {x: 1375.9172, y: 2.2228746, z: 614.1255}
+      up: {x: 0.008174946, y: 0.9999599, z: 0.0036723192}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 14 Occom Ridge House
+    100004: Dormer
+    100006: Dormer 1
+    100008: Dormer 2
+    100010: Dormer 3
+    100012: Dormer 4
+    100014: Dormer 5
+    100016: dormer window
+    100018: dormer window 1
+    100020: dormer window 2
+    100022: dormer window 3
+    100024: dormer window 4
+    100026: dormer window 5
+    100028: Foundation
+    100030: Front porch
+    100032: House center
+    100034: North addition
+    100036: Roof
+    100038: Window-generic
+    100040: Window-generic 1
+    100042: Window-generic 10
+    100044: Window-generic 11
+    100046: Window-generic 12
+    100048: Window-generic 13
+    100050: Window-generic 14
+    100052: Window-generic 15
+    100054: Window-generic 16
+    100056: Window-generic 17
+    100058: Window-generic 18
+    100060: Window-generic 19
+    100062: Window-generic 2
+    100064: Window-generic 20
+    100066: Window-generic 21
+    100068: Window-generic 22
+    100070: Window-generic 23
+    100072: Window-generic 24
+    100074: Window-generic 25
+    100076: Window-generic 26
+    100078: Window-generic 27
+    100080: Window-generic 28
+    100082: Window-generic 29
+    100084: Window-generic 3
+    100086: Window-generic 30
+    100088: Window-generic 31
+    100090: Window-generic 32
+    100092: Window-generic 33
+    100094: Window-generic 4
+    100096: Window-generic 5
+    100098: Window-generic 6
+    100100: Window-generic 7
+    100102: Window-generic 8
+    100104: Window-generic 9
+    400000: //RootNode
+    400002: 14 Occom Ridge House
+    400004: Dormer
+    400006: Dormer 1
+    400008: Dormer 2
+    400010: Dormer 3
+    400012: Dormer 4
+    400014: Dormer 5
+    400016: dormer window
+    400018: dormer window 1
+    400020: dormer window 2
+    400022: dormer window 3
+    400024: dormer window 4
+    400026: dormer window 5
+    400028: Foundation
+    400030: Front porch
+    400032: House center
+    400034: North addition
+    400036: Roof
+    400038: Window-generic
+    400040: Window-generic 1
+    400042: Window-generic 10
+    400044: Window-generic 11
+    400046: Window-generic 12
+    400048: Window-generic 13
+    400050: Window-generic 14
+    400052: Window-generic 15
+    400054: Window-generic 16
+    400056: Window-generic 17
+    400058: Window-generic 18
+    400060: Window-generic 19
+    400062: Window-generic 2
+    400064: Window-generic 20
+    400066: Window-generic 21
+    400068: Window-generic 22
+    400070: Window-generic 23
+    400072: Window-generic 24
+    400074: Window-generic 25
+    400076: Window-generic 26
+    400078: Window-generic 27
+    400080: Window-generic 28
+    400082: Window-generic 29
+    400084: Window-generic 3
+    400086: Window-generic 30
+    400088: Window-generic 31
+    400090: Window-generic 32
+    400092: Window-generic 33
+    400094: Window-generic 4
+    400096: Window-generic 5
+    400098: Window-generic 6
+    400100: Window-generic 7
+    400102: Window-generic 8
+    400104: Window-generic 9
+    2100000: _defaultMat
+    2100002: Yellow siding
+    2100004: '[Asphalt New]'
+    2100006: Ribbed steel roof
+    2100008: Stacy_Shoe_Laces_Sole
+    2100010: '[Concrete Aggregate Smoke]'
+    2100012: Stacy_Shoe
+    2100014: '[Translucent Glass Gray]'
+    2100016: '[Mirror 01]'
+    2100018: '[Cladding Stucco White]'
+    2300000: Dormer
+    2300002: Dormer 1
+    2300004: Dormer 2
+    2300006: Dormer 3
+    2300008: Dormer 4
+    2300010: Dormer 5
+    2300012: dormer window
+    2300014: dormer window 1
+    2300016: dormer window 2
+    2300018: dormer window 3
+    2300020: dormer window 4
+    2300022: dormer window 5
+    2300024: Foundation
+    2300026: Front porch
+    2300028: House center
+    2300030: North addition
+    2300032: Roof
+    2300034: Window-generic
+    2300036: Window-generic 1
+    2300038: Window-generic 10
+    2300040: Window-generic 11
+    2300042: Window-generic 12
+    2300044: Window-generic 13
+    2300046: Window-generic 14
+    2300048: Window-generic 15
+    2300050: Window-generic 16
+    2300052: Window-generic 17
+    2300054: Window-generic 18
+    2300056: Window-generic 19
+    2300058: Window-generic 2
+    2300060: Window-generic 20
+    2300062: Window-generic 21
+    2300064: Window-generic 22
+    2300066: Window-generic 23
+    2300068: Window-generic 24
+    2300070: Window-generic 25
+    2300072: Window-generic 26
+    2300074: Window-generic 27
+    2300076: Window-generic 28
+    2300078: Window-generic 29
+    2300080: Window-generic 3
+    2300082: Window-generic 30
+    2300084: Window-generic 31
+    2300086: Window-generic 32
+    2300088: Window-generic 33
+    2300090: Window-generic 4
+    2300092: Window-generic 5
+    2300094: Window-generic 6
+    2300096: Window-generic 7
+    2300098: Window-generic 8
+    2300100: Window-generic 9
+    3300000: Dormer
+    3300002: Dormer 1
+    3300004: Dormer 2
+    3300006: Dormer 3
+    3300008: Dormer 4
+    3300010: Dormer 5
+    3300012: dormer window
+    3300014: dormer window 1
+    3300016: dormer window 2
+    3300018: dormer window 3
+    3300020: dormer window 4
+    3300022: dormer window 5
+    3300024: Foundation
+    3300026: Front porch
+    3300028: House center
+    3300030: North addition
+    3300032: Roof
+    3300034: Window-generic
+    3300036: Window-generic 1
+    3300038: Window-generic 10
+    3300040: Window-generic 11
+    3300042: Window-generic 12
+    3300044: Window-generic 13
+    3300046: Window-generic 14
+    3300048: Window-generic 15
+    3300050: Window-generic 16
+    3300052: Window-generic 17
+    3300054: Window-generic 18
+    3300056: Window-generic 19
+    3300058: Window-generic 2
+    3300060: Window-generic 20
+    3300062: Window-generic 21
+    3300064: Window-generic 22
+    3300066: Window-generic 23
+    3300068: Window-generic 24
+    3300070: Window-generic 25
+    3300072: Window-generic 26
+    3300074: Window-generic 27
+    3300076: Window-generic 28
+    3300078: Window-generic 29
+    3300080: Window-generic 3
+    3300082: Window-generic 30
+    3300084: Window-generic 31
+    3300086: Window-generic 32
+    3300088: Window-generic 33
+    3300090: Window-generic 4
+    3300092: Window-generic 5
+    3300094: Window-generic 6
+    3300096: Window-generic 7
+    3300098: Window-generic 8
+    3300100: Window-generic 9
+    4300000: Mesh Front porch
+    4300002: Mesh Window-generic
+    4300004: Mesh House center
+    4300006: Mesh Roof
+    4300008: Mesh Foundation
+    4300010: Mesh North addition
+    4300012: Mesh Dormer
+    4300014: Mesh dormer window
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ribbed steel roof
+    second: {fileID: 2100000, guid: c784d124bb2b97e439c7721b4e223b32, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stacy_Shoe
+    second: {fileID: 2100000, guid: af9402d632a094b438d3240435f62df3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stacy_Shoe_Laces_Sole
+    second: {fileID: 2100000, guid: 3b53c30e47b02354ab4d2410a2c3ee8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow siding
+    second: {fileID: 2100000, guid: 74125c83a15a6d941911c25dab8ba21a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Asphalt New]'
+    second: {fileID: 2100000, guid: 396c7e264a1f4d84cbba31d0b052f366, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Cladding Stucco White]'
+    second: {fileID: 2100000, guid: 25964e4d08aba9046a751b793bb0cfba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Concrete Aggregate Smoke]'
+    second: {fileID: 2100000, guid: 2b31fe69b8e23424684a0f6b3707c091, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Mirror 01]'
+    second: {fileID: 2100000, guid: 6d7f3354ff7618f4a854e486c9bc0215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent Glass Gray]'
+    second: {fileID: 2100000, guid: 04412a8d208127c4cb79e64848f8072f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: aa3e8b2fc855858488f5887e63a54da5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2800000, guid: 405f160e943c2164ebeb33bdb1756025, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cladding_Siding_White_tint0xEDE8BBFF
+    second: {fileID: 2800000, guid: 9d5b0a90e4df36941a86790418226d96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cladding_Stucco_White
+    second: {fileID: 2800000, guid: 14943f025e4093a4399df6663ee0c004, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Aggregate_Smoke
+    second: {fileID: 2800000, guid: 4c54ecca306b47f4e951de8deccfb4b4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mirror_01
+    second: {fileID: 2800000, guid: 76d699cf360d8714ab779d248a96afa0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Metal_Standing_Seam_Red_tint0x686868FF
+    second: {fileID: 2800000, guid: ddd8e1b88e9c1864583c0a31d09fa6cc, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

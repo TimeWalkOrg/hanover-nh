@@ -1,61 +1,132 @@
+﻿/*
+    _____  _____  _____  _____  ______
+        |  _____ |      |      |  ___|
+        |  _____ |      |      |     |
+    
+     U       N       I       T      Y
+                                         
+    
+    TerraUnity Co. - Earth Simulation Tools - 2016
+    
+    http://terraunity.com
+    info@terraunity.com
+    
+    This script is written for Unity 3D Engine.
+    Unity 3D Version: Unity 5.x
+    
+    
+    
+    HOW TO USE: This is the modified version of the original "SmoothFollow" script by Unity. Attach the script to any desired cameras in the scene.
+    Type terrains layer name into the "Terrain Layer Name" field in order to detect underneath terrains.
+
+    
+    Added Features:
+        .Activate/Bypass height damping
+        .Detect underneath terrain if existing and avoid going through its surface
+
+    Written by: Amir Badamchi
+    
+*/
+
+
 using UnityEngine;
 
-namespace UnityStandardAssets.Utility
+public class SmoothFollowAdvanced : MonoBehaviour
 {
-	public class SmoothFollow : MonoBehaviour
-	{
+    // The target we are following
+    [SerializeField]
+    public Transform target;
 
-		// The target we are following
-		[SerializeField]
-		private Transform target;
-		// The distance in the x-z plane to the target
-		[SerializeField]
-		private float distance = 10.0f;
-		// the height we want the camera to be above the target
-		[SerializeField]
-		private float height = 5.0f;
+    // The distance in the x-z plane to the target
+    [SerializeField]
+    public float distance = 10.0f;
 
-		[SerializeField]
-		private float rotationDamping;
-		[SerializeField]
-		private float heightDamping;
+    [SerializeField]
+    public float rotationDamping;
 
-		// Use this for initialization
-		void Start() { }
+    //public string terrainLayerName = "Terrain";
+    public LayerMask terrainLayer;
 
-		// Update is called once per frame
-		void LateUpdate()
-		{
-			// Early out if we don't have a target
-			if (!target)
-				return;
+    public bool heightDamp = false;
 
-			// Calculate the current rotation angles
-			var wantedRotationAngle = target.eulerAngles.y;
-			var wantedHeight = target.position.y + height;
+    [SerializeField]
+    public float heightDamping;
 
-			var currentRotationAngle = transform.eulerAngles.y;
-			var currentHeight = transform.position.y;
+    private Terrain terrain;
+    private RaycastHit hit;
+    private float nearClipDistance;
 
-			// Damp the rotation around the y-axis
-			currentRotationAngle = Mathf.LerpAngle(currentRotationAngle, wantedRotationAngle, rotationDamping * Time.deltaTime);
+    // The height we want the camera to be above terrain
+    public float focusedHeight = 1.0f;
+    public float minimumHeight = 0.5f;
 
-			// Damp the height
-			currentHeight = Mathf.Lerp(currentHeight, wantedHeight, heightDamping * Time.deltaTime);
 
-			// Convert the angle into a rotation
-			var currentRotation = Quaternion.Euler(0, currentRotationAngle, 0);
+    private void Start ()
+    {
+        transform.position = target.position;
 
-			// Set the position of the camera on the x-z plane to:
-			// distance meters behind the target
-			transform.position = target.position;
-			transform.position -= currentRotation * Vector3.forward * distance;
+        // All main terrains in the scene are in the 8th layer named "Terrain"
+        //terrainLayer = 1 << LayerMask.NameToLayer(terrainLayerName);
 
-			// Set the height of the camera
-			transform.position = new Vector3(transform.position.x ,currentHeight , transform.position.z);
+        nearClipDistance = transform.GetComponent<Camera>().nearClipPlane;
+    }
 
-			// Always look at the target
-			transform.LookAt(target);
-		}
-	}
+    void LateUpdate()
+    {
+        // Early out if we don't have a target
+        if (!target)
+            return;
+
+        // Calculate the current rotation angles
+        float wantedRotationAngle = target.eulerAngles.y;
+
+        float currentRotationAngle = transform.eulerAngles.y;
+
+        // Damp the rotation around the y-axis
+        currentRotationAngle = Mathf.LerpAngle(currentRotationAngle, wantedRotationAngle, rotationDamping * Time.deltaTime);
+
+        // Convert the angle into a rotation
+        Quaternion currentRotation = Quaternion.Euler(0, currentRotationAngle, 0);
+
+        // Detect active terrain below object
+        Ray ray = new Ray (transform.position, Vector3.down);
+
+        if (Physics.Raycast (ray, out hit, Mathf.Infinity, terrainLayer))
+            terrain = hit.transform.gameObject.GetComponent<Terrain>();
+
+        if(heightDamp)
+        {
+            float currentHeight = transform.position.y;
+
+            if(terrain != null)
+            {
+                float terrainHeight = terrain.SampleHeight(transform.position);
+                float terrainHeightCam = terrainHeight + (nearClipDistance + minimumHeight);
+                float heightAbove = terrainHeight + focusedHeight;
+
+                // Check camera height & avoid going below terrain
+                if(currentHeight >= terrainHeightCam)
+                    currentHeight = Mathf.Lerp(currentHeight, heightAbove, heightDamping * Time.deltaTime);
+                else
+                    currentHeight = Mathf.Lerp(currentHeight, terrainHeightCam, 1000f * Time.deltaTime);
+
+                transform.position = new Vector3(target.position.x, currentHeight, target.position.z);
+            }
+            else
+            {
+                currentHeight = Mathf.Lerp(currentHeight, target.position.y + focusedHeight, heightDamping * Time.deltaTime);
+                transform.position = new Vector3(target.position.x, currentHeight, target.position.z);
+            }
+        }
+        else
+            transform.position = target.position;
+
+        // Set the position of the camera on the x-z plane to:
+        // distance meters behind the target
+        transform.position -= currentRotation * Vector3.forward * distance;
+
+        // Always look at the target
+        transform.LookAt(target);
+    }
 }
+
