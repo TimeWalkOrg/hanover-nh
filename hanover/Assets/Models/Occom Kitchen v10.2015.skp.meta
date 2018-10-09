@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 5ab8b93bc46795c42a48d94c43c138c9
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000200000003000000040000000500000006000000070000000c0000000d0000000e0000000f00000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f0000002000000021000000260000002700000028000000290000002a0000002b0000002c0000002d00000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a000000
+  assetHash:
+    serializedVersion: 2
+    Hash: a6f527bbf7752dade839e5b690cf285e
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 13.199558, y: 11.004706, z: -12.603627}
+      lookAt: {x: 2.2378898, y: -7.6532235, z: 18.926004}
+      up: {x: -0.16021809, y: 0.8728993, z: 0.46084383}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Basement door
+    100002: Bench
+    100004: Cabinet - full height
+    100006: Cabinet pair
+    100008: Cabinet pair 1
+    100010: Cabinet pair 2
+    100012: Cabinet pair 3
+    100014: Cabinet pair 4
+    100016: Component
+    100018: Counters
+    100020: Countertops
+    100022: Flooring
+    100024: Group 75
+    100026: Group 76
+    100028: Group 77
+    100030: Group 79
+    100032: Group 81
+    100034: Handle
+    100036: Handle 1
+    100038: Handle 2
+    100040: Handle 2 1
+    100042: House flooring
+    100044: //RootNode
+    100046: Refrigerator
+    100048: Round table
+    100050: Sink
+    100052: Stove
+    100054: Stove hood
+    100056: Walls
+    100058: Window frame - west north
+    100060: Window frame - west south
+    100062: Window pane
+    100064: Window pane 1
+    100066: Windows - large
+    100068: Windows - large 1
+    100070: Windows - large 2
+    100072: Windows - large 3
+    100074: Windows - north
+    100076: Windows - shorter
+    100078: Windows - shorter 1
+    400000: Basement door
+    400002: Bench
+    400004: Cabinet - full height
+    400006: Cabinet pair
+    400008: Cabinet pair 1
+    400010: Cabinet pair 2
+    400012: Cabinet pair 3
+    400014: Cabinet pair 4
+    400016: Component
+    400018: Counters
+    400020: Countertops
+    400022: Flooring
+    400024: Group 75
+    400026: Group 76
+    400028: Group 77
+    400030: Group 79
+    400032: Group 81
+    400034: Handle
+    400036: Handle 1
+    400038: Handle 2
+    400040: Handle 2 1
+    400042: House flooring
+    400044: //RootNode
+    400046: Refrigerator
+    400048: Round table
+    400050: Sink
+    400052: Stove
+    400054: Stove hood
+    400056: Walls
+    400058: Window frame - west north
+    400060: Window frame - west south
+    400062: Window pane
+    400064: Window pane 1
+    400066: Windows - large
+    400068: Windows - large 1
+    400070: Windows - large 2
+    400072: Windows - large 3
+    400074: Windows - north
+    400076: Windows - shorter
+    400078: Windows - shorter 1
+    2100000: _defaultMat
+    2100002: _5
+    2100004: '[Carrera Marble]'
+    2100006: '[Wood Floor] rotated'
+    2100008: '[Aluminum]'
+    2100010: _24
+    2100012: '[Steel Brushed Stainless]'
+    2100014: '[Checker Plate]'
+    2100016: '[Granite Light Gray]'
+    2100018: '[Metal Silver]'
+    2100020: '[Carpet Berber Multi]'
+    2100022: '[Wood Veneer 02]'
+    2100024: '[Wood Cherry Original]'
+    2100026: '[Translucent Glass Safety]'
+    2100028: White walls texture
+    2100030: _23
+    2100032: '[Translucent Glass Tinted]'
+    2100034: _9
+    2100036: _10
+    2100038: _21
+    2100040: _14
+    2100042: '[Formica Laminate Dark]'
+    2100044: _7
+    2100046: Faucet Finish
+    2100048: '[Color I04]'
+    2100050: '[0020_Red]'
+    2300000: Basement door
+    2300002: Bench
+    2300004: Cabinet - full height
+    2300006: Cabinet pair
+    2300008: Cabinet pair 1
+    2300010: Cabinet pair 2
+    2300012: Cabinet pair 3
+    2300014: Cabinet pair 4
+    2300016: Counters
+    2300018: Countertops
+    2300020: Flooring
+    2300022: Group 77
+    2300024: Group 79
+    2300026: Group 81
+    2300028: Handle
+    2300030: Handle 1
+    2300032: Handle 2
+    2300034: Handle 2 1
+    2300036: House flooring
+    2300038: //RootNode
+    2300040: Refrigerator
+    2300042: Round table
+    2300044: Sink
+    2300046: Stove
+    2300048: Stove hood
+    2300050: Walls
+    2300052: Window frame - west north
+    2300054: Window frame - west south
+    2300056: Window pane
+    2300058: Window pane 1
+    2300060: Windows - large
+    2300062: Windows - large 1
+    2300064: Windows - large 2
+    2300066: Windows - large 3
+    2300068: Windows - north
+    2300070: Windows - shorter
+    2300072: Windows - shorter 1
+    3300000: Basement door
+    3300002: Bench
+    3300004: Cabinet - full height
+    3300006: Cabinet pair
+    3300008: Cabinet pair 1
+    3300010: Cabinet pair 2
+    3300012: Cabinet pair 3
+    3300014: Cabinet pair 4
+    3300016: Counters
+    3300018: Countertops
+    3300020: Flooring
+    3300022: Group 77
+    3300024: Group 79
+    3300026: Group 81
+    3300028: Handle
+    3300030: Handle 1
+    3300032: Handle 2
+    3300034: Handle 2 1
+    3300036: House flooring
+    3300038: //RootNode
+    3300040: Refrigerator
+    3300042: Round table
+    3300044: Sink
+    3300046: Stove
+    3300048: Stove hood
+    3300050: Walls
+    3300052: Window frame - west north
+    3300054: Window frame - west south
+    3300056: Window pane
+    3300058: Window pane 1
+    3300060: Windows - large
+    3300062: Windows - large 1
+    3300064: Windows - large 2
+    3300066: Windows - large 3
+    3300068: Windows - north
+    3300070: Windows - shorter
+    3300072: Windows - shorter 1
+    4300000: Mesh Occom Kitchen v10.2015
+    4300002: Mesh Counters
+    4300004: Mesh Countertops
+    4300006: Mesh Flooring
+    4300008: Mesh Refrigerator
+    4300010: Mesh Stove hood
+    4300012: Mesh Sink
+    4300014: Mesh Bench
+    4300016: Mesh Round table
+    4300018: Mesh Basement door
+    4300020: Mesh Walls
+    4300022: Mesh Windows - north
+    4300024: Mesh Window pane
+    4300026: Mesh Window frame - west south
+    4300028: Mesh Window frame - west north
+    4300030: Mesh Stove
+    4300032: Mesh Cabinet - full height
+    4300034: Mesh House flooring
+    4300036: Mesh Cabinet pair
+    4300038: Mesh Cabinet pair
+    4300040: Mesh Cabinet pair
+    4300042: Mesh Windows - large
+    4300044: Mesh Windows - shorter
+    4300046: Mesh Group 77
+    4300048: Mesh Group 79
+    4300050: Mesh Group 81
+    4300052: Mesh Handle 2
+    4300054: Mesh Handle
+    4300056: Mesh Handle 2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet Finish
+    second: {fileID: 2100000, guid: 6d793625ad02bc54e98ed1b78a3b9b1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White walls texture
+    second: {fileID: 2100000, guid: bd19ac7841ac3324cba738b87f62ab6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0020_Red]'
+    second: {fileID: 2100000, guid: 97582f572d988224fb4e2f84a3034b1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Aluminum]'
+    second: {fileID: 2100000, guid: 61d1fe41b757b9e4ca8a14da4566ff3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet Berber Multi]'
+    second: {fileID: 2100000, guid: 461454830d58b7547aff5e699ba6bf2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carrera Marble]'
+    second: {fileID: 2100000, guid: 2b0ab1a6a71961b4f88ed463f2de3e61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Checker Plate]'
+    second: {fileID: 2100000, guid: 71ae554ae18a67440a0fd97339a6b86f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color I04]'
+    second: {fileID: 2100000, guid: 6d9cdfc1868db4745ac1a71f9f370bab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Formica Laminate Dark]'
+    second: {fileID: 2100000, guid: 32455a5f473b2d14c800bce9e685c3ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Granite Light Gray]'
+    second: {fileID: 2100000, guid: d7308579387679e4a8c10df504f1e562, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal Silver]'
+    second: {fileID: 2100000, guid: 297a81f3144de944c9feb14f454b05ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Steel Brushed Stainless]'
+    second: {fileID: 2100000, guid: 2884547b99b4abc4bb828c14b4308b76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent Glass Safety]'
+    second: {fileID: 2100000, guid: 02ef3435e4154ff4cae3645e4983337d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent Glass Tinted]'
+    second: {fileID: 2100000, guid: 8840709f3e7c07a4988959813f36ee53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood Cherry Original]'
+    second: {fileID: 2100000, guid: 0eec42c62deb1c647887a256f059e84f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood Floor] rotated'
+    second: {fileID: 2100000, guid: 7de8bb0cc89e8fc41b6256377c82232d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood Veneer 02]'
+    second: {fileID: 2100000, guid: e39892fa881165f43b2b331d3a26745a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _10
+    second: {fileID: 2100000, guid: 8e0ef2cd52783d047a41135135794396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _14
+    second: {fileID: 2100000, guid: 825a3f2958a6af84db8903211bf9afdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _21
+    second: {fileID: 2100000, guid: 4085cdc784ae9ee4fb391df3b24627a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _23
+    second: {fileID: 2100000, guid: 111584ff6f25efb4e9aff62b650925bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _24
+    second: {fileID: 2100000, guid: 8312c96b9c5265049be1b5365a0880e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5
+    second: {fileID: 2100000, guid: 4b987885849779143b84eca708948fac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _7
+    second: {fileID: 2100000, guid: c61d8d8795e85994794f4cb13f64f961, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _9
+    second: {fileID: 2100000, guid: 443c9c9e8a17c24459a9c96e05e25f90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: a22daf45ab90bf645925a3a65898bbc7, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Aluminum
+    second: {fileID: 2800000, guid: 95064fa8df803864a8f11110c20ec25c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Berber_Multi
+    second: {fileID: 2800000, guid: 8db05f5f4d22de749a50b479ba05c88e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carrera Marble
+    second: {fileID: 2800000, guid: 12e3ee622ad19de4686e542d99c8584a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Checker Plate
+    second: {fileID: 2800000, guid: 63d09ea1b266485478768490a031f024, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Formica Laminate Dark
+    second: {fileID: 2800000, guid: 4123fb6f14ac9304cba96788ccafff69, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Granite 02
+    second: {fileID: 2800000, guid: 368227129389e1942853bede37336daa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal Silver
+    second: {fileID: 2800000, guid: 759185b22ba55d54598c6a90030845bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Quartz Light Grey
+    second: {fileID: 2800000, guid: f7460d6b437950143a0bb706ad4466ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Steel Brushed Stainless
+    second: {fileID: 2800000, guid: 218c2bffffa7c79478e99ceae24e4731, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Saftey
+    second: {fileID: 2800000, guid: 950c231ee9eda084f84d6907eb77ab3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Translucent_Glass_Tinted
+    second: {fileID: 2800000, guid: 6daca1f99439c334d9597b276e4e9bcb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood 02
+    second: {fileID: 2800000, guid: eabf77947ef1bdb41bcd3f4ae1dd3f92, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_Cherry_Original
+    second: {fileID: 2800000, guid: d0e4c0e7bcab60a4987270ff964cbded, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_Floor
+    second: {fileID: 2800000, guid: f5b03ed05ee7ad744bec4e5e6127feed, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
